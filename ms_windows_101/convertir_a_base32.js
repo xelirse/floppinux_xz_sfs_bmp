@@ -15,4 +15,10 @@ for(var i=0;i<w.length/32;++i){
 		}
 	}
 }
-var y = e.map(x=> console.log(x[0],"\t",x[1]) )
+var y = e.map(x=>((1e4+x[0])+"").slice(1)
+		.replace(/^000/g,"   ")
+		.replace(/^00/g,"  ")
+		.replace(/^0/g," ")
+	+" "+x[1]
+).join("\n")
+fs.writeFileSync("windows101_base32.txt",y)
