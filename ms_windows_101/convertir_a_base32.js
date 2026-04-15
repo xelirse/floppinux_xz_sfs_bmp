@@ -3,7 +3,7 @@ var w = [...q]
 var e = []
 for(var i=0;i<w.length/32;++i){
 	var r = w.slice( i*32, (i+1)*32 )
-	var t = (32n**52n+eval("0x"+r.map(x=>x.toString(16)).join("")+"n")).toString(32).slice(1)
+	var t = (32n**52n+eval("0x"+r.map(x=>x.toString(16)).join("")+"n")).toString(32).slice(1).toUpperCase().match(/.{8}/g).join(" ")
 	var u = e.slice(-1)[0]
 	if(u==null){
 		e.push([1,t])
