@@ -96024,7 +96024,7 @@ endobj
 endobj
 765 0 obj
 <</Type /FontDescriptor
-  /FontName /KCWWS
+  /FontName /CKWHD
   /Flags 7
   /ItalicAngle 0
   /FontBBox [-557 -374 717 1027]
@@ -96040,7 +96040,7 @@ endobj
 766 0 obj
 <</Type /Font
   /Subtype /CIDFontType2
-  /BaseFont /KCWWS
+  /BaseFont /CKWHD
   /FontDescriptor 765 0 R
   /CIDSystemInfo <<
     /Registry (Adobe)
@@ -96053,7 +96053,7 @@ endobj
 767 0 obj
 <</Type /Font
   /Subtype /Type0
-  /BaseFont /KCWWS
+  /BaseFont /CKWHD
   /Encoding /Identity-H
   /DescendantFonts [766 0 R]
 >>
@@ -96079,7 +96079,7 @@ endobj
 769 0 obj
 <<
   /Creator (texttopdf/1.28.17)
-  /CreationDate (D:20260416034217-03'03')
+  /CreationDate (D:20260416043340-03'03')
   /Title (windows1fda.fasm.ndisasm_v0.asm)
   /Author (root)
 >>
